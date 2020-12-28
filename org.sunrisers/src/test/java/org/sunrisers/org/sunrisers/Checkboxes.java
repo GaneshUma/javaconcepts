@@ -17,6 +17,8 @@ public class Checkboxes {
 		Thread.sleep(5000);
 		//List<WebElement> checkbox  = driver.findElements(By.xpath("//input[@name='webform' and @type='checkbox']"));	
 		
+		System.out.println("Test");
+		
 		List check = driver.findElements(By.xpath("//input[@name='webform' and @type='checkbox']"));
 		int totalcms = check.size();
 	
