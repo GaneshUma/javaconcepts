@@ -7,7 +7,7 @@ public class Final_variable {
 	
 	void age()
 	{
-		myage=43;
+		//myage=43;
 		
 		System.out.println(myage);
 	}
